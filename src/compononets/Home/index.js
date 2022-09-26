@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import Header from './../Header/index';
-import Items from './../Home/Items/index';
 import Search from './Search/index';
+import Items from './Items/index';
 export class Home extends Component {
 
     render() {
