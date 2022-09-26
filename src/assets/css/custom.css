@@ -1,0 +1,62 @@
+a {
+    text-decoration: none !important;
+}
+
+.b-r-10 {
+    border-radius: 10px !important;
+}
+
+.b-r-15 {
+    border-radius: 15px !important;
+}
+
+.b-r-20 {
+    border-radius: 20px;
+}
+
+.b-r-25 {
+    border-radius: 25px;
+}
+
+.b-r-30 {
+    border-radius: 30px;
+}
+
+.b-r-40 {
+    border-radius: 40px;
+}
+
+.b-r-50 {
+    border-radius: 50%;
+}
+
+.fs-7 {
+    font-size: 0.8em;
+}
+
+.touch-ink {
+    color: #aaaaaa;
+    border-radius: inherit;
+}
+
+.overflow-x-hidden {
+    overflow-x: scroll;
+}
+
+.overflow-x-hidden::-webkit-scrollbar {
+    display: none;
+}
+
+.overflow-y-hidden {
+    overflow-y: auto;
+}
+
+.overflow-y-hidden::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.fw-semibold {
+    font-weight: 500 !important;
+}
