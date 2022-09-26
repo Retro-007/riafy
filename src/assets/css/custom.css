@@ -60,3 +60,61 @@ a {
 .fw-semibold {
     font-weight: 500 !important;
 }
+
+.header-fixed {
+    position: sticky;
+    z-index: 9999;
+    box-shadow: 0px 0px 9px 0px rgb(0 0 0 / 5%);
+    background-color: #fff !important;
+    top: 0px;
+}
+
+.common-color {
+    color: #30384d !important;
+}
+
+.common-bg-color {
+    background-color: #30384d !important;
+}
+
+.w-700 {
+    font-weight: 700;
+}
+
+.form-search-control {
+    background-color: #f7f7f7;
+    border: none;
+    outline: none;
+    font-size: 0.8em;
+    color: #30384d;
+    font-weight: 500;
+
+}
+
+.form-search-control::placeholder {
+    color: #7e8a9a;
+    font-weight: 500;
+}
+
+.form-search-control:focus{
+    box-shadow: none;
+    background-color: #f7f7f7;
+
+}
+
+.item-img {
+    object-fit: cover;
+    width: 45vw;
+    height: 30vw;
+    border-radius: 5px;
+}
+
+.item-name {
+    font-size: 0.85em;
+}
+
+.item-text {
+    font-weight: 500;
+    font-size: 0.7em;
+    color: #7e8a9a;
+}
